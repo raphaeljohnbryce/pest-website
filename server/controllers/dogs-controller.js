@@ -42,7 +42,6 @@ router.get(`${baseUrl}/dogs/ownerById/:id`, (req, res) => {
     res.send(requestedOwnerObj)
 })
 
-
 router.get(`${baseUrl}/dogs/ownerPhoneById/:id`, (req, res) => {
     let id = +req.params.id
 
